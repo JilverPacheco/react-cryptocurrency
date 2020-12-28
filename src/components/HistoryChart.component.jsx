@@ -43,7 +43,7 @@ export const HistoryChart = ({ data }) => {
         options: historyOptions,
       });
     }
-  }, [DetermineTimeFormat, detail]);
+  }, [detail]);
 
   return (
     <div className="bg-white border mt-2 rounded p-3">

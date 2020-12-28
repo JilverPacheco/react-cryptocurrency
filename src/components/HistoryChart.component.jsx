@@ -56,7 +56,7 @@ export const HistoryChart = ({ data }) => {
       <div className="chart-button mt-1">
         <button
           onClick={() => setTimeFormat("24h")}
-          className="btn btn-outline-secondary btn-sm"
+          className="btn btn-outline-secondary m-2 btn-sm"
         >
           24h
         </button>

@@ -53,6 +53,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   width: 100vw;
   height: 100vh;
 }
@@ -106,4 +107,11 @@ ul {
   100% {
     height: 0;
   }
+}
+.link-p{
+  cursor: pointer;
+  background-color: transparent;
+}
+.link-p{
+  background-color: transparent;
 }

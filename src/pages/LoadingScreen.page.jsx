@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 const LoadingScreen = () => {
   return (
     <div className="loading-screen">

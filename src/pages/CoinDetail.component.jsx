@@ -2,10 +2,10 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
 import coinGecko from "../api/coinGecko";
-import { CoinData } from "../components/CoinData";
 import { HistoryChart } from "../components/HistoryChart.component";
 import LoadingScreen from "./LoadingScreen.page";
 import Fade from "react-reveal/Fade"
+import { CoinData } from "../components/CoinData.component";
 
 const CoinDetail = () => {
   const { id } = useParams();
